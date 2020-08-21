@@ -21,7 +21,7 @@ section .inner {
   margin: 0 auto;
 }
 
-.sectionBtn{
+.sectionBtn {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px #4f4f4f;
   color: #4f4f4f !important;
@@ -42,7 +42,7 @@ section .inner {
   margin-top: 1em;
 }
 
-.sectionBtn:hover{
+.sectionBtn:hover {
   background-color: #f0f0f0;
 }
 
@@ -57,14 +57,14 @@ section .inner {
   padding-bottom: 20px;
 }
 
-#sectionOne hr{
+#sectionOne hr {
   height: 0.8em;
-    background-color: gray;
-    width: 39em;
-    margin: 1rem 0 2.5rem ;
+  background-color: gray;
+  width: 39em;
+  margin: 1rem 0 2.5rem;
 }
 
-#sectionTwo .inner{
+#sectionTwo .inner {
   display: flex;
   justify-content: space-between;
 }
@@ -73,28 +73,32 @@ section .inner {
   width: 512px;
   margin-top: 40px;
 }
-#sectionTwo .sectionTitle{
+#sectionTwo .sectionTitle {
   margin-bottom: 0.5em;
   font-size: 2.6rem;
 }
 
-#sectionTwo p{
+#sectionTwo p {
   font-size: 20px;
   margin: 40px 0;
   width: 100%;
 }
 
-#sectionTwo img{
-  width:100%
+#sectionTwo img {
+  width: 100%;
 }
 
-.secTwoBlock{
+.secTwoBlock {
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
-#sectionThree{
+.slider {
+  width: 100%;
+}
+
+#sectionThree {
   font-family: NSimSun;
   background-color: white;
   height: 350px;
@@ -105,26 +109,26 @@ section .inner {
   padding-bottom: 20px;
 }
 
-#sectionThree hr{
+#sectionThree hr {
   height: 0.8em;
   background-color: gray;
   width: 24em;
-  margin: 1rem 0 2.5rem ;
+  margin: 1rem 0 2.5rem;
 }
 
-#sectionFour{
+#sectionFour {
   display: flex;
   align-items: center;
   background-color: #f3f3f3;
 }
 
-#sectionFour .sectionTitle{
+#sectionFour .sectionTitle {
   font-size: 2.6rem;
   margin: 20px 0 20px 0;
   text-align: center;
 }
 
-.fourBlock{
+.fourBlock {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -156,12 +160,6 @@ section .inner {
   letter-spacing: 3px;
 }
 
-.content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1120px;
-}
-
 .box {
   width: 100%;
   height: 250px;
@@ -180,25 +178,6 @@ section .inner {
   transform: translateY(-50%);
   width: 94%;
   text-align: center;
-}
-
-#contractBox {
-  text-align: left;
-}
-
-.boxtitle {
-  font-family: Microsoft JhengHei;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-.mapContent {
-  margin: auto;
-  width: 990px;
-
-  margin-bottom: 20px;
 }
 
 .hero-image {
@@ -229,28 +208,27 @@ section .inner {
   font-family: HelveticaLight;
   letter-spacing: 3px;
   font-size: 3.5rem;
-  text-transform:uppercase ;
+  text-transform: uppercase;
 }
 
-.contentLines {
+.footer{
+  height: 300px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInfo{
+  color: white;
   font-family: Microsoft JhengHei;
-  margin: 5px;
-  font-size: 1.6rem;
+
 }
 
-.sectionTitle{
+.sectionTitle {
   font-size: 3rem;
   font-weight: bold;
   font-family: Microsoft JhengHei;
-}
-
-.contractContentLines {
-  font-family: Microsoft JhengHei;
-  margin: 5px;
-  font-size: 1.4rem;
-  text-align: left;
-  width: 200px;
-  margin: auto;
 }
 
 #navigation li ul {
@@ -260,15 +238,15 @@ section .inner {
   white-space: nowrap;
 }
 
-#navigation li{
+#navigation li {
   text-align: center;
 }
 
-#navigation li:hover{
+#navigation li:hover {
   color: white;
 }
 
-#navigation li:hover ul{
+#navigation li:hover ul {
   display: block;
   background-color: #222;
 }
@@ -281,17 +259,15 @@ section .inner {
   margin-left: 0rem;
 }
 
-.navBtn{
+.navBtn {
   color: #ddd;
   transition: color 0.5s;
 }
 
-.navBtn:hover{
+.navBtn:hover {
   color: white;
   text-decoration: none;
 }
-
-
 
 /* 主頁縮放後的menu,幹來的,以後要學 */
 .navPanelToggle {
@@ -305,17 +281,17 @@ section .inner {
   z-index: 1;
 }
 
-.panelTittle{
+.panelTittle {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-weight: bold;
 }
 
-.panelBtn{
-  color: #ADADAD ;
+.panelBtn {
+  color: #adadad;
 }
 
-.panelBtn:hover{
-  color: #BEBEBE;
+.panelBtn:hover {
+  color: #bebebe;
 }
 
 .navPanelToggle:before {
@@ -402,16 +378,15 @@ section .inner {
   font-family: NSimSun;
 }
 
-#navPanel ul li ul{
-  color: #ADADAD;
+#navPanel ul li ul {
+  color: #adadad;
   margin: 0 2rem 3rem;
   white-space: nowrap;
 }
 
-#navPanel li li{
-margin: 1rem 0;
+#navPanel li li {
+  margin: 1rem 0;
 }
-
 
 #navPanel .button {
   width: 100%;
@@ -609,16 +584,16 @@ margin: 1rem 0;
     font-size: 1.8rem;
     font-family: Microsoft JhengHei;
   }
-  .sectionTitle{
+  .sectionTitle {
     font-size: 2.7rem;
   }
-  .sectionBtn{
+  .sectionBtn {
     font-size: 1.8rem;
   }
-  #sectionOne hr{
+  #sectionOne hr {
     width: 35em;
   }
-  #sectionThree hr{
+  #sectionThree hr {
     width: 21.6em;
   }
 }
@@ -629,5 +604,18 @@ margin: 1rem 0;
   }
   #sectionTwo .secTwoBlock:last-child {
     padding-right: 15rem;
+  }
+}
+
+@media (max-width: 1175px) {
+  #sectionTwo .secTwoBlock {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 590px) {
+  #sectionTwo article {
+    width: 400px;
   }
 }

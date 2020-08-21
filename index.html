@@ -5,6 +5,8 @@
 <head>
   <title>明門藝文中心</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/main.css" />
   <script type="text/javascript" src="main.js"></script>
@@ -12,7 +14,6 @@
 
 <body style="background-color: #eeeeee;" onload="init()">
   <header class="alt" id="header">
-
     <span>明門藝文中心</span>
     <nav id="navigation">
       <ul>
@@ -68,9 +69,11 @@
           <header>
             <div class="sectionTitle">年度活動回顧</div>
           </header>
-          <div class="image fit">
-            <img src="picture/unnamed.png" alt="" />
-          </div>
+          <div class="slider">
+            <img src="picture/unnamed.png" alt="1" />
+            <img src="picture/unnamed.png" alt="2" />
+            <img src="picture/unnamed.png" alt="3" />
+        </div>
           <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem.
             Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
         </div>
@@ -81,7 +84,9 @@
           <header>
             <div class="sectionTitle">近期呈現</div>
           </header>
-          <div class="image fit">
+          <div class="slider">
+            <img src="picture/unnamed.png" alt="" />
+            <img src="picture/unnamed.png" alt="" />
             <img src="picture/unnamed.png" alt="" />
           </div>
           <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem.
@@ -105,29 +110,38 @@
 
   <section id="sectionFour" >
     <div class="container" style="max-width: 1343.75px;">
-    <div class="row" style="width: 100%;">
+    <div class="row" style="width: 100%;margin: 0;">
       <div class="fourBlock col-lg-4">
       <article><div>
         <img src="picture/unnamed.png" alt="" style="width: 100%;"/>
       </div></article>
       </div>
       <div class="fourBlock col-lg-4">
-        <article><div>
+        <article><div style="text-align: center;">
         <div class="sectionTitle" >空間介紹</div>
-        <img src="picture/layer.png" width="200px"/>
+        <img src="picture/layer.png" width="50%"/>
         </div></article>
       </div>
       <div class="fourBlock col-lg-4">
-        <div><article>
+        <article><div style="text-align: center;">
         <div class="sectionTitle">租借辦法</div>
-        <img src="picture/dollar.png" alt="" width="200px"/>
-        </article></div>
+        <img src="picture/dollar.png" alt="" width="50%"/>
+      </div></article>
       </div>
     </div>
   </div>
   </section>
 
-
+  <footer>
+    <div class="footer">
+      <div style="text-align: center;">
+      <div class="footerInfo" style="font-size: 22px;font-weight: bold;">均一明門藝文中心</div>
+      <div class="footerInfo" style="font-size: 18px;margin-top: 1em;">950 台東市中興路二段366巷36號</div>
+      <div class="footerInfo" style="font-size: 16px;margin-bottom: 1em;">No. 36, Ln. 366, Sec. 2, Zhongxing Rd., Taitung City, Taitung Country 950, Taiwan (R.O.C.)</div>
+      <div class="footerInfo" style="font-size: 16px;"><span>電話 | 089 - 223301</span><span style="margin-left: 1.5em;">Email | info@junyi.tw</span></div>
+    </div>
+    </div>
+  </footer>
 
   <div id="navPanel">
     <ul>
@@ -162,6 +176,19 @@
     </ul>
     <div id="menuClose" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
   </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+      $('.slider').slick({
+        dots:true,
+        autoplay:true,
+        autoSpeed:5000,
+      });
+  </script>
+				
 </body>
 
 </html>
