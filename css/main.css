@@ -49,12 +49,11 @@ section .inner {
 #sectionOne {
   font-family: NSimSun;
   background-color: white;
-  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 #sectionOne hr {
@@ -101,12 +100,11 @@ section .inner {
 #sectionThree {
   font-family: NSimSun;
   background-color: white;
-  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 #sectionThree hr {
@@ -119,12 +117,12 @@ section .inner {
 #sectionFour {
   display: flex;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #e6e6e6;
 }
 
 #sectionFour .sectionTitle {
   font-size: 2.6rem;
-  margin: 20px 0 20px 0;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -132,8 +130,16 @@ section .inner {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #f3f3f3;
-  height: 350px;
+}
+
+.secFourBtn{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.secFourBtn:hover{
+  box-shadow: 10px 10px 50px black;
 }
 
 #header {
@@ -212,17 +218,16 @@ section .inner {
 }
 
 .footer{
-  height: 300px;
   background-color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 75px 0 75px;
 }
 
-.footerInfo{
+.footInfo {
   color: white;
   font-family: Microsoft JhengHei;
-
 }
 
 .sectionTitle {
@@ -554,6 +559,11 @@ section .inner {
     font-size: 3.1rem;
   }
 }
+@media (max-width: 374px) {
+  .chinese-hero-text {
+    font-size: 3.0rem;
+  }
+}
 
 @media (max-width: 1604px) {
   .english-hero-text {
@@ -561,13 +571,7 @@ section .inner {
   }
 }
 
-@media (max-width: 1445px) and (min-width: 1156px) {
-  .english-hero-text {
-    font-size: 2.3rem;
-  }
-}
-
-@media (max-width: 1155px) {
+@media (max-width: 1445px){
   .english-hero-text {
     font-size: 2.3rem;
   }
@@ -617,5 +621,43 @@ section .inner {
 @media (max-width: 590px) {
   #sectionTwo article {
     width: 400px;
+  }
+}
+@media (max-width: 466px) {
+  #sectionTwo article {
+    width: 300px;
+  }
+}
+@media (max-width: 360px) {
+  #sectionTwo article {
+    width: 260px;
+  }
+}
+@media (max-width: 340px) {
+  #sectionTwo article {
+    width: 220px;
+  }
+}
+
+@media (max-width: 390px) {
+  #footTitle{
+    font-size: 18px !important;
+  }
+  #footAddress {
+    font-size: 14px !important;
+  }
+  #footEAddress{
+    font-size: 12px !important;
+  }
+  #footContract span{
+    font-size: 14px;
+    display: block;
+    margin-left: 0 !important;
+  }
+}
+
+@media(max-width: 992px){
+  .secFourBtn{
+    margin: 20px 0 0;
   }
 }
