@@ -8,9 +8,9 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            // "url": "http://localhost:8080",
-            "url": "${workspaceFolder}/index.html",
-            "webRoot": "${workspaceFolder}"
+            "url": "https://andrew99154.github.io/pac/",
+            // "url": "${workspaceFolder}/index.html",
+            "webRoot": "/pac/",
         }
     ]
 }
