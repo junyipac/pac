@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://andrew99154.github.io/pac/",
+            "url": "http://andrew99154.github.io/pac/",
             // "url": "${workspaceFolder}/index.html",
             "webRoot": "/pac/",
         }
