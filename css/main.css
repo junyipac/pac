@@ -34,9 +34,9 @@ section .inner {
   margin-top: 1em;
 }
 
-/* .sectionBtn:hover {
+.sectionBtn:hover {
   background-color: #f0f0f0;
-} */
+}
 
 #sectionOne {
   font-family: NSimSun;
