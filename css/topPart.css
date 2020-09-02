@@ -79,6 +79,19 @@ html {
     font-family: NSimSun;
   }
 
+  .footer{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0 75px;
+  }
+
+  .footInfo {
+    color: white;
+    font-family: Microsoft JhengHei;
+  }
+
   #navigation li ul {
     margin: 0;
     display: none;
@@ -402,6 +415,23 @@ html {
   @media (max-width: 951px) and (min-width: 665px) {
     .english-hero-text {
       font-size: 2.6rem;
+    }
+  }
+
+  @media (max-width: 390px) {
+    #footTitle{
+      font-size: 18px !important;
+    }
+    #footAddress {
+      font-size: 14px !important;
+    }
+    #footEAddress{
+      font-size: 12px !important;
+    }
+    #footContract span{
+      font-size: 14px;
+      display: block;
+      margin-left: 0 !important;
     }
   }
   
