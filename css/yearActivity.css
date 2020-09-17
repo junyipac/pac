@@ -34,6 +34,10 @@ section .inner {
       margin-top: 15px;
   }
 
+  .textTypeOne{
+    margin-left: 20px;
+  }
+
   .sectionTitleTypeTwo{
     color: #e6e6e6;
     font-size: 30px;
@@ -51,4 +55,42 @@ section .inner {
       font-size: 15px;
       margin-top: 15px;
       color: #e6e6e6;
+  }
+
+  .textTypeTwo{
+    margin-right: 20px;
+  }
+
+  @media(max-width: 1117px){
+    .sectionTitleTypeOne{
+      font-size: 20px;
+    }
+    .titleDateTypeOne{
+      font-size: 16px;
+    }
+    .sectionContentTypeOne{
+      font-size: 13px;
+    }
+    .sectionTitleTypeTwo{
+      font-size: 20px;
+    }
+    .titleDateTypeTwo{
+      font-size: 16px;
+    }
+    .sectionContentTypeTwo{
+      font-size: 13px;
+    }
+  }
+
+  @media(max-width: 990px){
+    section .inner{
+      display: block;
+      max-width: 600px;
+    }
+    .textTypeOne{
+      margin: 30px 0 0;
+    }
+    .textTypeTwo{
+      margin: 0;
+    }
   }
