@@ -18,6 +18,10 @@ section .inner {
     background-color: #636363;
 }
 
+.rwdTopImg{
+  display: none;
+}
+
   .sectionTitleTypeOne{
     font-size: 30px;
     font-family: Microsoft JhengHei;
@@ -91,6 +95,12 @@ section .inner {
       margin: 30px 0 0;
     }
     .textTypeTwo{
-      margin: 0;
+      margin: 30px 0 0;
+    }
+    .rwdBottomImg{
+      display: none;
+    }
+    .rwdTopImg{
+      display: block;
     }
   }
