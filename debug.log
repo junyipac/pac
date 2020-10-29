@@ -1,1 +1,3 @@
 [0820/085350.599:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1022/152053.333:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系統找不到指定的路徑。 (0x3)
+[1022/153606.393:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系統找不到指定的路徑。 (0x3)
