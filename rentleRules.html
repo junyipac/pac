@@ -1,95 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>明門藝文中心</title>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/topPart.css">
-    <link rel="stylesheet" href="css/rentleRules.css">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/topPart.css" />
+    <link rel="stylesheet" href="css/rentleRules.css" />
     <script type="text/javascript" src="js/main.js"></script>
-
-</head>
-<body style="background-color: #eeeeee;" onload="init()">
+  </head>
+  <body style="background-color: #eeeeee" onload="init()">
     <header class="alt" id="header">
-        <a href="index.html" class="indexBtn">明門藝文中心</a>
-        <nav id="navigation">
-          <ul>
-            <li id="activityIntroduction"><a>活動呈現</a>
-              <ul style="padding: 0 2rem;margin-left: -4rem;">
-                <li><a href="yearActivity.html" class="navBtn">年度活動回顧</a></li>
-                <li><a href="#" class="navBtn">近期呈現</a></li>
+      <a href="index.html" class="indexBtn">明門藝文中心</a>
+      <nav id="navigation">
+        <ul>
+          <li id="activityIntroduction">
+            <a>活動呈現</a>
+            <ul style="padding: 0 2rem; margin-left: -4rem">
+              <li>
+                <a href="yearActivity.html" class="navBtn">年度活動回顧</a>
+              </li>
+              <li><a href="#" class="navBtn">近期呈現</a></li>
+            </ul>
+          </li>
+          <li id="activityReview">
+            <a>使用空間</a>
+            <ul style="padding: 0 2rem; margin-left: -8.5rem">
+              <li>
+                <a href="rentleRules.html" class="navBtn"
+                  >場地租借使用管理辦法</a
+                >
+              </li>
+              <li><a href="#" class="navBtn">申請表單&切結書(下載)</a></li>
+            </ul>
+          </li>
+          <li id="spaceIntroduction">
+            <a>友善連結</a>
+            <ul style="padding: 0 2rem; margin-left: -16rem">
+              <li><a href="#" class="navBtn">均一國際教育實驗高中</a></li>
+              <li><a href="#" class="navBtn">公益平台基金會</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <a class="navPanelToggle" id="menuBtn">
+      <span class="fa fa-bars"></span>
+    </a>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 class="chinese-hero-text">場地租借使用管理辦法</h1>
+        <p class="english-hero-text">wonderland performing art center</p>
+      </div>
+    </div>
+
+    <section id="sectionOne">
+      <div class="inner container">
+        <div class="row">
+          <div class="col-lg-6" id="blueBox" style="padding-left: 0;">
+            <div class="borders" style="border-color: #8397b0;display: flex; align-items: center;">
+              <div>
+              <div class="boxTitle" style="color: #8397b0">申請資格</div>
+              <ul class="content">
+                <li>
+                  一般團體
+                  <div>法⼈、政府機關、⼀般公司企業及⾮營利組織等。</div>
+                </li>
+                <li>
+                  藝文團體與學校
+                  <div>（⼀） 登記⽴案之⾮營利藝⽂團體</div>
+                  <div>
+                    （⼆）
+                    ⼤專院校藝⽂、⽂化創意產業及藝術教育相關系所或學術單位。
+                  </div>
+                </li>
               </ul>
-            </li>
-            <li id="activityReview"><a>使用空間</a>
-              <ul style="padding: 0 2rem;margin-left: -8.5rem;">
-                <li><a href="rentleRules.html" class="navBtn">場地租借使用管理辦法</a></li>
-                <li><a href="#" class="navBtn">申請表單&切結書(下載)</a></li>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" id="greenBox" style="padding-right: 0;">
+            <div class="borders" style="border-color: #84af94">
+              <div class="boxTitle" style="color: #84af94">申請辦法</div>
+              <ul class="content">
+                <li>
+                  場地於活動（演出）⽇ 30 個⼯作天前送件申請。
+                  <div>
+                    包含：活動內容符合本中⼼宗旨，不得危害公共安全、違法及違背善良社會⾵俗；並不受理政治、宗教有關之集會活動；不受理跨夜活動。
+                  </div>
+                </li>
+                <li>
+                  申請審核時間為 7 個⼯作天
+                  <div>（⼀） 登記⽴案之⾮營利藝⽂團體</div>
+                  <div>
+                    （⼆）
+                    ⼤專院校藝⽂、⽂化創意產業及藝術教育相關系所或學術單位。
+                  </div>
+                </li>
               </ul>
-            </li>
-            <li id="spaceIntroduction"><a>友善連結</a>
-              <ul style="padding: 0 2rem;margin-left: -16rem;">
-                <li><a href="#" class="navBtn">均一國際教育實驗高中</a></li>
-                <li><a href="#" class="navBtn">公益平台基金會</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    
-      <a class="navPanelToggle" id="menuBtn">
-        <span class="fa fa-bars"></span>
-      </a>
-    
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1 class="chinese-hero-text">場地租借使用管理辦法</h1>
-          <p class="english-hero-text">wonderland performing art center</p>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <section id="sectionOne">
-        <div class="inner">
-          <div class="borders" style="border-color: #8397b0;">
-            <div class="boxTitle" style="color:#8397b0 ;">申請資格</div>
-            <ul class="content">
-              <li>一般團體
-                <div>法⼈、政府機關、⼀般公司企業及⾮營利組織等。 </div>
-              </li>
-              <li>藝文團體與學校
-                <div>（⼀） 登記⽴案之⾮營利藝⽂團體</div>
-                <div>（⼆） ⼤專院校藝⽂、⽂化創意產業及藝術教育相關系所或學術單位。 
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="sectionTwo">
-        <div class="inner">
-          <div class="borders" style="border-color:#84af94">
-            <div class="boxTitle" style="color:#84af94 ;">申請辦法</div>
-            <ul class="content">
-              <li>場地於活動（演出）⽇ 30 個⼯作天前送件申請。
-                <div>包含：活動內容符合本中⼼宗旨，不得危害公共 安全、違法及違背善良社會⾵俗；並不受理政治、宗教有關之集會活動；不受理跨夜活動。 
-                </div>
-              </li>
-              <li>申請審核時間為 7 個⼯作天
-                <div>（⼀） 登記⽴案之⾮營利藝⽂團體</div>
-                <div>（⼆） ⼤專院校藝⽂、⽂化創意產業及藝術教育相關系所或學術單位。 
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="sectionThree">
-        <div class="inner">
-          <div class="borders" style="border-color:#db8470 ;">
-            <div class="boxTitle" style="color:#db8470 ;">資料下載</div>
+    <section id="sectionTwo">
+      <div class="inner">
+        <div class="borders" style="border-color: #db8470">
+          <div class="boxTitle" style="color: #db8470">資料下載</div>
+          <div class="content">
             <ul>
               <li>使用管理辦法</li>
               <li>場地申請表單</li>
@@ -102,61 +130,84 @@
             </ul>
           </div>
         </div>
-      </section>
-
-      <footer>
-        <div class="footer">
-          <div style="text-align: center;">
-          <div class="footInfo" id="footTitle" style="font-size: 22px;font-weight: bold;">均一明門藝文中心</div>
-          <div class="footInfo" id="footAddress" style="font-size: 18px;margin-top: 1em;">950 台東市中興路二段366巷36號</div>
-          <div class="footInfo" id="footEAddress" style="font-size: 16px;margin-bottom: 1em;">No. 36, Ln. 366, Sec. 2, Zhongxing Rd., Taitung City, Taitung Country 950, Taiwan (R.O.C.)</div>
-          <div class="footInfo" id="footContract" style="font-size: 16px;"><span>電話 | 089 - 223301</span><span style="margin-left: 1.5em;">Email | info@junyi.tw</span></div>
-        </div>
-        </div>
-      </footer>
-
-      <div id="navPanel">
-        <ul>
-          <li>
-            <a class="panelTittle">
-              首頁
-            </a>
-            <ul>
-              <li><a href="index.html" class="panelBtn">明門藝文中心</a> </li>
-            </ul>
-          </li>
-          <li>
-            <a class="panelTittle">
-              活動呈現
-            </a>
-            <ul>
-              <li><a href="yearActivity.html" class="panelBtn">年度活動回顧</a> </li>
-              <li><a href="#" class="panelBtn">近期呈現</a></li>
-            </ul>
-          </li>
-    
-          <li>
-            <a class="panelTittle">
-              使用空間
-            </a>
-            <ul>
-              <li><a href="rentleRules.html" class="panelBtn">場地租借使用管理辦法</a> </li>
-              <li><a href="#" class="panelBtn">申請表單&切結書(下載)</a></li>
-            </ul>
-          </li>
-          <li>
-            <a class="panelTittle">
-              友善連結
-            </a>
-            <ul>
-              <li><a href="#" class="panelBtn">均一國際教育實驗高中</a></li>
-              <li><a href="#" class="panelBtn">公益平台基金會</a></li>
-            </ul>
-          </li>
-        </ul>
-        <div id="menuClose" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
       </div>
+    </section>
 
-    
-</body>
+    <footer>
+      <div class="footer">
+        <div style="text-align: center">
+          <div
+            class="footInfo"
+            id="footTitle"
+            style="font-size: 22px; font-weight: bold"
+          >
+            均一明門藝文中心
+          </div>
+          <div
+            class="footInfo"
+            id="footAddress"
+            style="font-size: 18px; margin-top: 1em"
+          >
+            950 台東市中興路二段366巷36號
+          </div>
+          <div
+            class="footInfo"
+            id="footEAddress"
+            style="font-size: 16px; margin-bottom: 1em"
+          >
+            No. 36, Ln. 366, Sec. 2, Zhongxing Rd., Taitung City, Taitung
+            Country 950, Taiwan (R.O.C.)
+          </div>
+          <div class="footInfo" id="footContract" style="font-size: 16px">
+            <span>電話 | 089 - 223301</span
+            ><span style="margin-left: 1.5em">Email | info@junyi.tw</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="navPanel">
+      <ul>
+        <li>
+          <a class="panelTittle"> 首頁 </a>
+          <ul>
+            <li><a href="index.html" class="panelBtn">明門藝文中心</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="panelTittle"> 活動呈現 </a>
+          <ul>
+            <li>
+              <a href="yearActivity.html" class="panelBtn">年度活動回顧</a>
+            </li>
+            <li><a href="#" class="panelBtn">近期呈現</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a class="panelTittle"> 使用空間 </a>
+          <ul>
+            <li>
+              <a href="rentleRules.html" class="panelBtn"
+                >場地租借使用管理辦法</a
+              >
+            </li>
+            <li><a href="#" class="panelBtn">申請表單&切結書(下載)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="panelTittle"> 友善連結 </a>
+          <ul>
+            <li><a href="#" class="panelBtn">均一國際教育實驗高中</a></li>
+            <li><a href="#" class="panelBtn">公益平台基金會</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div
+        id="menuClose"
+        class="close"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+      ></div>
+    </div>
+  </body>
 </html>
