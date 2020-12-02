@@ -15,7 +15,17 @@
     <link rel="stylesheet" href="css/topPart.css" />
     <link rel="stylesheet" href="css/rentleRules.css" />
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/rentleRules.js"></script>
+    <!-- 引入jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- 引入Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <!-- 引入fullcalendar -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.min.css" rel="stylesheet"  />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.print.css" rel="stylesheet" media="print"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.min.js"></script>
   </head>
+
   <body style="background-color: #eeeeee" onload="init()">
     <header class="alt" id="header">
       <a href="index.html" class="indexBtn">明門藝文中心</a>
@@ -133,6 +143,21 @@
       </div>
     </section>
 
+  <section id="sectionThree">
+    <div id="calendar" style="width: 80%;margin-left: auto;margin-right: auto;"></div>
+    <script>
+      $('#calendar').fullCalendar({
+    header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: "month,basicWeek"
+    },
+    editable: false,
+    aspectRatio:1.8,
+});
+</script>
+    </section>
+    
     <footer>
       <div class="footer">
         <div style="text-align: center">
