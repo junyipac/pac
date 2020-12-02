@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/topPart.css" />
     <link rel="stylesheet" href="css/rentleRules.css" />
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/rentleRules.js"></script>
     <!-- 引入jquery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <!-- 引入Moment.js -->
@@ -152,8 +151,17 @@
         center: 'title',
         right: "month,basicWeek"
     },
-    editable: false,
-    aspectRatio:1.8,
+    aspectRatio:1.6,
+    editable:false,
+    eventTextColor:"white",
+    events: [ // 事件
+				{ // 事件(包含跨日開始時間、結束時間)
+					title: "Test Event",
+					start: "2020-12-07",
+					end: "2020-12-10"
+				}
+      ]
+      
 });
 </script>
     </section>
