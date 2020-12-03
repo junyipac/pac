@@ -224,4 +224,8 @@ section .inner {
   .secFourBtn{
     margin: 20px 0 0;
   }
+  .fourBlock{
+    max-width: 80% !important;
+    flex: 0 0 100%;
+  }
 }
