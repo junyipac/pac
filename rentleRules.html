@@ -24,16 +24,7 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/gcal.js"></script>
 
-  <script type="text/javascript">
-    var calendarEl = document.getElementById("calendar");
-    let calendar = new FullCalendar.Calendar(calendarEl, {
-      googleCalendarApiKey: "<AIzaSyAh97hAqvpV0raZr3y_D7QtrLHLPMsZYZY>",
-      events: {
-        googleCalendarId: "wpac@junyi.tw",
-        className: "gcal-event",
-      },
-    });
-  </script>
+
 </head>
 
 <body style="background-color: #eeeeee" onload="init()">
@@ -164,6 +155,14 @@
         editable: false,
         eventTextColor: "white",
       });
+      var calendarEl = document.getElementById("calendar");
+      let calendar = new FullCalendar.Calendar(calendarEl, {
+      googleCalendarApiKey: "<AIzaSyAh97hAqvpV0raZr3y_D7QtrLHLPMsZYZY>",
+      events: {
+        googleCalendarId: "wpac@junyi.tw",
+        className: "gcal-event",
+      },
+    });
     </script>
   </section>
 
