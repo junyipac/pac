@@ -14,15 +14,18 @@
     />
     <link rel="stylesheet" href="css/topPart.css" />
     <link rel="stylesheet" href="css/rentleRules.css" />
+    
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/rentleRules.js"></script>
     <!-- 引入jquery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <!-- 引入Moment.js -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <!-- 引入fullcalendar -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.min.css" rel="stylesheet"  />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.print.css" rel="stylesheet" media="print"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.print.css" rel="stylesheet" media="print">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+
   </head>
 
   <body style="background-color: #eeeeee" onload="init()">
@@ -161,9 +164,17 @@
 					end: "2020-12-10"
 				}
       ]
-
-      
 });
+</script>
+<script>
+  var calendarEl = document.getElementById('calendar')
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    googleCalendarApiKey: '<AIzaSyDTN1o7d4ItUMejZb63GS16c5fjXW_X5P4>',
+    events: {
+      googleCalendarId: 'wpac@junyi.tw'
+    }
+  });
+
 </script>
     </section>
     
