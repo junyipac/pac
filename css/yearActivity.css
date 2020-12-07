@@ -4,7 +4,10 @@ section .inner {
     margin: 0 auto;
     display: inline-flex;
     align-items: center;
+    text-align: left;
   }
+
+  
 
   .sectionTypeOne{
       text-align: center;
@@ -23,7 +26,7 @@ section .inner {
 }
 
   .sectionTitleTypeOne{
-    font-size: 30px;
+    font-size: 26px;
     font-family: Microsoft JhengHei;
     font-weight: 600;
   }
@@ -34,7 +37,7 @@ section .inner {
   }
 
   .sectionContentTypeOne{
-      font-size: 15px;
+      font-size: 16px;
       margin-top: 15px;
   }
 
@@ -44,7 +47,7 @@ section .inner {
 
   .sectionTitleTypeTwo{
     color: #e6e6e6;
-    font-size: 30px;
+    font-size: 26px;
     font-family: Microsoft JhengHei;
     font-weight: 600;
   }
@@ -56,7 +59,7 @@ section .inner {
   }
 
   .sectionContentTypeTwo{
-      font-size: 15px;
+      font-size: 16px;
       margin-top: 15px;
       color: #e6e6e6;
   }
@@ -67,7 +70,7 @@ section .inner {
 
   @media(max-width: 1117px){
     .sectionTitleTypeOne{
-      font-size: 20px;
+      font-size: 22px;
     }
     .titleDateTypeOne{
       font-size: 16px;
@@ -76,7 +79,7 @@ section .inner {
       font-size: 13px;
     }
     .sectionTitleTypeTwo{
-      font-size: 20px;
+      font-size: 22px;
     }
     .titleDateTypeTwo{
       font-size: 16px;

@@ -1,0 +1,86 @@
+#sectionTwo .inner {
+  max-width: 215em;
+  width: calc(100% - 6em);
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+}
+
+#sectionOne .inner {
+  max-width: 215em;
+  width: calc(100% - 6rem);
+  margin: 0 auto;
+}
+#sectionTwo {
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: white;
+}
+.sectionTitleTypeOne {
+  font-size: 26px;
+  font-family: Microsoft JhengHei;
+  font-weight: 600;
+}
+
+.sectionContentTypeOne {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#sectionOne {
+  font-family: NSimSun;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+}
+#sectionOne hr {
+  height: 0.8em;
+  background-color: gray;
+  width: 19.5em;
+  margin: 1rem 0 2.5rem;
+}
+.mainIntroduction {
+  font-size: 2rem;
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+  font-family: Microsoft JhengHei;
+}
+
+@media (max-width: 818px) {
+  .sectionTitle {
+    font-size: 2.7rem;
+  }
+  .mainIntroduction{
+      font-size: 1.8rem;
+  }
+  #sectionOne hr {
+    width: 17em;
+}
+}
+@media(max-width: 1117px){
+    .sectionTitleTypeOne{
+      font-size: 22px;
+    }
+    .sectionContentTypeOne{
+      font-size: 13px;
+    }
+  }
+
+  @media(max-width: 990px){
+    #sectionTwo .inner{
+      display: block;
+      max-width: 600px;
+    }
+    .textTypeOne{
+      margin: 30px 0 0;
+    }
+  }

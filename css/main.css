@@ -154,15 +154,12 @@ section .inner {
   text-align: center;
 }
 
-
-
-
-
 .sectionTitle {
   font-size: 3rem;
   font-weight: bold;
   font-family: Microsoft JhengHei;
 }
+
 /* 字級RWD */
 @media (max-width: 818px) {
   .mainIntroduction {
