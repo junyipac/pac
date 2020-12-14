@@ -61,6 +61,10 @@
     height: auto;
 }
 
+  .documentBtn a:hover{
+    font-weight: bold;
+  }
+
 
   @media (max-width: 991.5px){
     #greenBox{
