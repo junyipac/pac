@@ -1,6 +1,6 @@
 section .inner {
     max-width: 215em;
-    width: calc(100% - 6em);
+    width: calc(100% - 15em);
     margin: 0 auto;
     display: inline-flex;
     align-items: center;
@@ -105,5 +105,8 @@ section .inner {
     }
     .rwdTopImg{
       display: block;
+    }
+    section .inner{
+      width: calc(100% - 11em);
     }
   }
