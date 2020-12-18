@@ -23,6 +23,7 @@
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
   <script type="text/javascript" src="js/gcal.js"></script>
+
 </head>
 
 <body style="background-color: #eeeeee" onload="init()">
@@ -155,9 +156,9 @@
       });
       var calendarEl = document.getElementById("calendar");
       let calendar = new FullCalendar.Calendar(calendarEl, {
-      API_KEY: "<AIzaSyAh97hAqvpV0raZr3y_D7QtrLHLPMsZYZY>",
+        googleCalendarApiKey: "<AIzaSyAh97hAqvpV0raZr3y_D7QtrLHLPMsZYZY>",
       events: {
-        googleCalendarId: "wpac@junyi.tw",
+        googleCalendarId: "c_1mh2sn2v15g7ueq3ljmlbq5g28@group.calendar.google.com",
         className: "gcal-event",
       },
     });
