@@ -1,0 +1,61 @@
+section .inner {
+  max-width: 215em;
+  width: calc(100% - 15em);
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+}
+
+section {
+  text-align: center;
+  padding: 35px 0;
+  background-color: white;
+}
+
+.rwdTopImg {
+  display: none;
+}
+
+.sectionTitle {
+  font-size: 26px;
+  font-family: Microsoft JhengHei;
+  font-weight: 600;
+}
+
+.sectionContent{
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.textIntro {
+  margin-left: 20px;
+}
+
+@media (max-width: 1117px) {
+  .sectionTitle {
+    font-size: 22px;
+  }
+  .sectionContent{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 990px) {
+  section .inner {
+    display: block;
+    max-width: 600px;
+  }
+  .textIntro {
+    margin: 30px 0 0;
+  }
+  .rwdBottomImg {
+    display: none;
+  }
+  .rwdTopImg {
+    display: block;
+  }
+  section .inner {
+    width: calc(100% - 11em);
+  }
+}
