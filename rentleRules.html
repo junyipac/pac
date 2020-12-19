@@ -47,11 +47,14 @@
         var calendarEl = document.getElementById("calendar");
 
         let calendar = new FullCalendar.Calendar(calendarEl, {
-          plugins: ["dayGrid", "googleCalendar"],
-          googleCalendarApiKey: "<AIzaSyA6sL_PJrq2GN_qBU4H5yQLutVnzye9lVs>",
-          events: {
-            googleCalendarId: "c_1mh2sn2v15g7ueq3ljmlbq5g28@group.calendar.google.com",
+          plugins: ["interaction", "dayGrid", "list", "googleCalendar"],
+          header: {
+            left: "prev,next today",
+            center: "title",
+            right: "dayGridMonth,listYear",
           },
+          googleCalendarApiKey: "<AIzaSyA6sL_PJrq2GN_qBU4H5yQLutVnzye9lVs>",
+          events: "c_1mh2sn2v15g7ueq3ljmlbq5g28@group.calendar.google.com",
         });
 
         calendar.render();
