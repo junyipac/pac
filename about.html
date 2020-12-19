@@ -1,145 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>明門藝文中心</title>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="css/topPart.css" />
     <link rel="stylesheet" href="css/about.css" />
 
     <script type="text/javascript" src="js/main.js"></script>
-</head>
-<body style="background-color: #eeeeee;" onload="init()">
+  </head>
+  <body style="background-color: #eeeeee" onload="init()">
     <header class="alt" id="header">
-        <a href="index.html" class="indexBtn">明門藝文中心</a>
-        <nav id="navigation">
-          <ul>
-            <li id="activityIntroduction"><a>活動呈現</a>
-              <ul style="padding: 0 2rem;margin-left: -4rem;">
-                <li><a href="recentPresent.html" class="navBtn">近期呈現</a></li>
-                <li><a href="yearActivity.html" class="navBtn">年度活動回顧</a></li>
-              </ul>
-            </li>
-            <li id="activityReview"><a>使用空間</a>
-              <ul style="padding: 0 2rem;margin-left: -8.5rem;">
-                <li><a href="rentleRules.html" class="navBtn">場地租借使用管理辦法</a></li>
-                <li><a href="spaceIntro.html" class="navBtn">空間介紹</a></li>
-              </ul>
-            </li>
-            <li id="spaceIntroduction"><a>友善連結</a>
-              <ul style="padding: 0 2rem;margin-left: -16rem;">
-                <li><a href="http://junyi.tw/" target="_blank" class="navBtn">均一國際教育實驗高中</a></li>
-                <li><a href="https://www.thealliance.org.tw/" target="_blank" class="navBtn">公益平台基金會</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    
-      <a class="navPanelToggle" id="menuBtn">
-        <span class="fa fa-bars"></span>
-      </a>
-    
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1 class="chinese-hero-text">關於明門藝文中心</h1>
-          <p class="english-hero-text">wonderland performing art center</p>
-        </div>
-      </div>
-
-      <section class="sectionOne">
-        <div class="inner">
-          <div class="sectionTitle">關於建物</div>
-          <hr style="height: 1em;background-color: gray;">
-          <div class="mainIntroduction">均一明門藝文中心由明門企業捐贈。鄭欽明董事長與公益平台文化基金會董事長嚴長壽先生，是幾十年的好夥伴，因為支持並理解嚴總裁的理念，知道作為高中能有一個大家可以共同學習的空間，這樣的起心動念，便捐贈了明門藝文中心。
-            </div>
-        </div>
-      </section>
-
-      <section class="sectionOne" style="padding-top: 0;">
-        <div class="inner">
-          <div class="sectionTitle">成立宗旨</div>
-          <hr style="height: 1em;background-color: gray;">
-          <div class="mainIntroduction">均⼀明⾨藝⽂中⼼隸屬於⾮營利單位，成⽴的使命與宗旨，為推廣⽂化、藝術、教育發展，提升⽂化⽣活品質及素養能⼒，⿎勵具潛⼒者及團體，發表其作品及研究成果，並邀請國內外具影響⼒及跨界之各領域⼯作者，展演或與⻘年學⼦對談，成為東部交流分享與合作學習的據點。
-            </div>
-        </div>
-      </section>
-
-      <section class="sectionTwo">
-          <div class="inner">
-            <div class="col-lg-5">
-            <img src="picture/unnamed.png" alt="圖" style="width: 100%;"/>
-            </div>
-          <div class="col-lg-7 textTypeOne">
-              <div class="sectionTitleTypeOne">均一明門藝文中心使命
-            </div>
-
-              <div class="sectionContentTypeOne">花東，以壯闊自然生態作為城市基底，擁有多元族群文化、豐富的藝術涵養與自然而然的創作環境，我們期待在台東打造一座國際視野的專業表演場域，匯聚藝術人才，交流、展演、試煉。
-                建築物作為花東的美學示範，空間場域成為均一學生們的實驗基地，當世界級的專業團隊進駐，學生們有幸成為大師的助手，目不轉睛的眼神與高度的行動力，學習的榜樣成為培育藝術人才的珍貴基石，身處花東依然能放眼世界具備優質競爭力。
-                </div>
-          </div>
-          </div>
-      </section>
-
-
-
-    <footer>
-        <div class="footer">
-          <div style="text-align: center;">
-          <div class="footInfo" id="footTitle" style="font-size: 22px;font-weight: bold;">均一明門藝文中心</div>
-          <div class="footInfo" id="footAddress" style="font-size: 18px;margin-top: 1em;">950 台東市中興路二段366巷36號</div>
-          <div class="footInfo" id="footEAddress" style="font-size: 16px;margin-bottom: 1em;">No. 36, Ln. 366, Sec. 2, Zhongxing Rd., Taitung City, Taitung Country 950, Taiwan (R.O.C.)</div>
-          <div class="footInfo" id="footContract" style="font-size: 16px;"><span>電話 | 089 - 223301</span><span style="margin-left: 1.5em;">Email | info@junyi.tw</span></div>
-        </div>
-        </div>
-      </footer>
-
-      <div id="navPanel">
+      <a href="index.html" class="indexBtn">明門藝文中心</a>
+      <nav id="navigation">
         <ul>
-          <li>
-            <a class="panelTittle">
-              首頁
-            </a>
-            <ul>
-              <li><a href="index.html" class="panelBtn">明門藝文中心</a> </li>
+          <li id="activityIntroduction">
+            <a>活動呈現</a>
+            <ul style="padding: 0 2rem; margin-left: -4rem">
+              <li><a href="recentPresent.html" class="navBtn">近期呈現</a></li>
+              <li>
+                <a href="yearActivity.html" class="navBtn">年度活動回顧</a>
+              </li>
             </ul>
           </li>
-          <li>
-            <a class="panelTittle">
-              活動呈現
-            </a>
-            <ul>
-              <li><a href="recentPresent.html" class="panelBtn">近期呈現</a></li>
-              <li><a href="yearActivity.html" class="panelBtn">年度活動回顧</a> </li>
+          <li id="activityReview">
+            <a>使用空間</a>
+            <ul style="padding: 0 2rem; margin-left: -8.5rem">
+              <li>
+                <a href="rentleRules.html" class="navBtn"
+                  >場地租借使用管理辦法</a
+                >
+              </li>
+              <li><a href="spaceIntro.html" class="navBtn">空間介紹</a></li>
             </ul>
           </li>
-    
-          <li>
-            <a class="panelTittle">
-              使用空間
-            </a>
-            <ul>
-              <li><a href="rentleRules.html" class="panelBtn">場地租借使用管理辦法</a> </li>
-              <li><a href="spaceIntro.html" class="panelBtn">空間介紹</a></li>
-            </ul>
-          </li>
-          <li>
-            <a class="panelTittle">
-              友善連結
-            </a>
-            <ul>
-              <li><a href="http://junyi.tw/" target="_blank" class="panelBtn">均一國際教育實驗高中</a></li>
-              <li><a href="https://www.thealliance.org.tw/" target="_blank" class="panelBtn">公益平台基金會</a></li>
+          <li id="spaceIntroduction">
+            <a>友善連結</a>
+            <ul style="padding: 0 2rem; margin-left: -16rem">
+              <li>
+                <a href="http://junyi.tw/" target="_blank" class="navBtn"
+                  >均一國際教育實驗高中</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.thealliance.org.tw/"
+                  target="_blank"
+                  class="navBtn"
+                  >公益平台基金會</a
+                >
+              </li>
             </ul>
           </li>
         </ul>
-        <div id="menuClose" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+      </nav>
+    </header>
+
+    <a class="navPanelToggle" id="menuBtn">
+      <span class="fa fa-bars"></span>
+    </a>
+
+    <div
+      class="hero-image"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url(picture/關於藝文中心/1\ 置頂照.jpeg);
+          background-position: bottom;
+      "
+    >
+      <div class="hero-text">
+        <h1 class="chinese-hero-text">關於明門藝文中心</h1>
+        <p class="english-hero-text">wonderland performing art center</p>
       </div>
+    </div>
 
+    <section class="sectionOne">
+      <div class="inner">
+        <div class="sectionTitle">關於建物</div>
+        <hr style="height: 1em; background-color: gray" />
+        <div class="mainIntroduction">
+          均一明門藝文中心由明門企業捐贈。鄭欽明董事長與公益平台文化基金會董事長嚴長壽先生，是幾十年的好夥伴，因為支持並理解嚴總裁的理念，知道作為高中能有一個大家可以共同學習的空間，這樣的起心動念，便捐贈了明門藝文中心。
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section class="sectionOne" style="padding-top: 0">
+      <div class="inner">
+        <div class="sectionTitle">成立宗旨</div>
+        <hr style="height: 1em; background-color: gray" />
+        <div class="mainIntroduction">
+          均⼀明⾨藝⽂中⼼隸屬於⾮營利單位，成⽴的使命與宗旨，為推廣⽂化、藝術、教育發展，提升⽂化⽣活品質及素養能⼒，⿎勵具潛⼒者及團體，發表其作品及研究成果，並邀請國內外具影響⼒及跨界之各領域⼯作者，展演或與⻘年學⼦對談，成為東部交流分享與合作學習的據點。
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionTwo">
+      <div class="inner">
+        <div class="col-lg-5">
+          <img src="picture/關於藝文中心/2.jpg" alt="圖" style="width: 100%" />
+        </div>
+        <div class="col-lg-7 textTypeOne">
+          <div class="sectionTitleTypeOne">均一明門藝文中心使命</div>
+
+          <div class="sectionContentTypeOne">
+            花東，以壯闊自然生態作為城市基底，擁有多元族群文化、豐富的藝術涵養與自然而然的創作環境，我們期待在台東打造一座國際視野的專業表演場域，匯聚藝術人才，交流、展演、試煉。
+            建築物作為花東的美學示範，空間場域成為均一學生們的實驗基地，當世界級的專業團隊進駐，學生們有幸成為大師的助手，目不轉睛的眼神與高度的行動力，學習的榜樣成為培育藝術人才的珍貴基石，身處花東依然能放眼世界具備優質競爭力。
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div style="text-align: center">
+          <div
+            class="footInfo"
+            id="footTitle"
+            style="font-size: 22px; font-weight: bold"
+          >
+            均一明門藝文中心
+          </div>
+          <div
+            class="footInfo"
+            id="footAddress"
+            style="font-size: 18px; margin-top: 1em"
+          >
+            950 台東市中興路二段366巷36號
+          </div>
+          <div
+            class="footInfo"
+            id="footEAddress"
+            style="font-size: 16px; margin-bottom: 1em"
+          >
+            No. 36, Ln. 366, Sec. 2, Zhongxing Rd., Taitung City, Taitung
+            Country 950, Taiwan (R.O.C.)
+          </div>
+          <div class="footInfo" id="footContract" style="font-size: 16px">
+            <span>電話 | 089 - 223301</span
+            ><span style="margin-left: 1.5em">Email | info@junyi.tw</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="navPanel">
+      <ul>
+        <li>
+          <a class="panelTittle"> 首頁 </a>
+          <ul>
+            <li><a href="index.html" class="panelBtn">明門藝文中心</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="panelTittle"> 活動呈現 </a>
+          <ul>
+            <li><a href="recentPresent.html" class="panelBtn">近期呈現</a></li>
+            <li>
+              <a href="yearActivity.html" class="panelBtn">年度活動回顧</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a class="panelTittle"> 使用空間 </a>
+          <ul>
+            <li>
+              <a href="rentleRules.html" class="panelBtn"
+                >場地租借使用管理辦法</a
+              >
+            </li>
+            <li><a href="spaceIntro.html" class="panelBtn">空間介紹</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="panelTittle"> 友善連結 </a>
+          <ul>
+            <li>
+              <a href="http://junyi.tw/" target="_blank" class="panelBtn"
+                >均一國際教育實驗高中</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.thealliance.org.tw/"
+                target="_blank"
+                class="panelBtn"
+                >公益平台基金會</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div
+        id="menuClose"
+        class="close"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+      ></div>
+    </div>
+  </body>
 </html>

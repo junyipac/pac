@@ -12,9 +12,10 @@ function init() {
 function DayNightBgChange() {
   var today = new Date();
   now = today.getHours();
-  var ele = document.getElementById("nice");
+  var picture = document.getElementById("DayNightChangeImage");
   if ((now >= 18 && now <= 24) || (now >= 0 && now <= 6)) {
   } else {
+    // picture.style.backgroundImage = "url('picture/照片/1209 (8).jpg')";
   }
 }
 
