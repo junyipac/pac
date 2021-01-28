@@ -39,12 +39,19 @@
 }
 
 .text{
-    padding: 0 20px;
+    padding: 0 35px;
 }
 
 .picContainer{
     display: inline-flex;
     justify-content: space-between;
+}
+
+.picContainer .picture:first-child{
+    margin: 10px 0 20px 35px;
+}
+.picContainer .picture:last-child{
+    margin: 10px 35px 20px 0;
 }
 
 @media (max-width:943px){
