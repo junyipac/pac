@@ -57,7 +57,7 @@
 @media (max-width:943px){
     .picture{
         width: 100%;
-        margin: 10px 0 20px;
+        margin: 10px 0 20px !important;
     }
     .picContainer{
         display: block;
