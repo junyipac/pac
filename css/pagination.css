@@ -48,10 +48,10 @@
 }
 
 .picContainer .picture:first-child{
-    margin: 10px 0 20px 35px;
+    margin: 10px 5px 20px 50px;
 }
 .picContainer .picture:last-child{
-    margin: 10px 35px 20px 0;
+    margin: 10px 50px 20px 5px;
 }
 
 @media (max-width:943px){
