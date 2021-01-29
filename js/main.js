@@ -14,8 +14,8 @@ function DayNightBgChange() {
   now = today.getHours();
   var picture = document.getElementById("DayNightChangeImage");
   if ((now >= 18 && now <= 24) || (now >= 0 && now <= 6)) {
+    picture.style.backgroundImage = "url('picture/照片/1209\ \(8\).jpg')";
   } else {
-    // picture.style.backgroundImage = "url('picture/照片/1209 (8).jpg')";
   }
 }
 
