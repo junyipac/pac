@@ -26,6 +26,7 @@ section {
 .sectionContent{
   font-size: 17px;
   margin-top: 15px;
+  text-align: justify;
 }
 
 .textIntro {
