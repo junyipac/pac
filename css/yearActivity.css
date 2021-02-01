@@ -1,5 +1,5 @@
 section .inner {
-    max-width: 215em;
+    max-width: 190em;
     width: calc(100% - 15em);
     margin: 0 auto;
     display: inline-flex;
