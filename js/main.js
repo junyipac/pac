@@ -9,6 +9,7 @@ function init() {
     menuList.classList.toggle("visible");
   };
 }
+
 function DayNightBgChange() {
   var today = new Date();
   now = today.getHours();

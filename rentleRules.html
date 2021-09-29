@@ -29,45 +29,29 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
     ></script>
     <!-- 引入fullcalendar -->
-
-    <link
-      href="js/fullcalendar-4.3.0/packages/core/main.css"
-      rel="stylesheet"
-    />
-    <link
-      href="js/fullcalendar-4.3.0/packages/daygrid/main.css"
-      rel="stylesheet"
-    />
-    <link
-      href="js/fullcalendar-4.3.0/packages/list/main.css"
-      rel="stylesheet"
-    />
-
-    <script src="js/fullcalendar-4.3.0/packages/core/main.js"></script>
-    <script src="js/fullcalendar-4.3.0/packages/interaction/main.js"></script>
-    <script src="js/fullcalendar-4.3.0/packages/daygrid/main.js"></script>
-    <script src="js/fullcalendar-4.3.0/packages/list/main.js"></script>
-    <script src="js/fullcalendar-4.3.0/packages/google-calendar/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.4.0/main.min.js"></script>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var calendarEl = document.getElementById("calendar");
 
-        let calendar = new FullCalendar.Calendar(calendarEl, {
-          plugins: ["interaction", "dayGrid", "list", "googleCalendar"],
-          header: {
-            left: "prev,next today",
-            center: "title",
-            right: "dayGridMonth,listYear",
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          headerToolbar:{
+            start:"prev next today",
+            center:"title",
+            end:"dayGridMonth,listYear"
+          },
+          eventColor: "#8397b0",
+          googleCalendarApiKey: 'AIzaSyA6sL_PJrq2GN_qBU4H5yQLutVnzye9lVs',
+          events: {
+            googleCalendarId: 'c_1mh2sn2v15g7ueq3ljmlbq5g28@group.calendar.google.com',
           },
           displayEventTime: false,
-          googleCalendarApiKey: "AIzaSyA6sL_PJrq2GN_qBU4H5yQLutVnzye9lVs",
-          events: "c_1mh2sn2v15g7ueq3ljmlbq5g28@group.calendar.google.com",
-          eventColor: "#8397b0",
         });
-
         calendar.render();
       });
+
     </script>
   </head>
 

@@ -60,8 +60,8 @@
   .fc .fc-toolbar>*>* {
     height: auto;
 }
-  .fc-center{
-    font-size: 2em;
+  .fc-toolbar-title{
+    font-size: 3.25em !important;
   }
   .documentBtn a:hover{
     font-weight: bold;
