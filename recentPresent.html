@@ -1,164 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>近期呈現</title>
-    <meta name="description" content="均⼀明⾨藝⽂中⼼隸屬於⾮營利單位，成⽴的使命與宗旨，為推廣⽂化、藝術、教育發展，提升⽂化⽣活品質及素養能⼒，⿎勵具潛⼒者及團體，發表其作品及研究成果，並邀請國內外具影響⼒及跨界之各領域⼯作者，展演或與⻘年學⼦對談，成為東部交流分享與合作學習的據點。"/>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/topPart.css" />
-    <link rel="stylesheet" href="css/yearActivity.css" />
-    <script type="text/javascript" src="js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>近期呈現</title>
+  <meta name="description"
+    content="均⼀明⾨藝⽂中⼼隸屬於⾮營利單位，成⽴的使命與宗旨，為推廣⽂化、藝術、教育發展，提升⽂化⽣活品質及素養能⼒，⿎勵具潛⼒者及團體，發表其作品及研究成果，並邀請國內外具影響⼒及跨界之各領域⼯作者，展演或與⻘年學⼦對談，成為東部交流分享與合作學習的據點。" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/topPart.css" />
+  <link rel="stylesheet" href="css/yearActivity.css" />
+  <script type="text/javascript" src="js/main.js"></script>
 </head>
+
 <body style="background-color: #eeeeee;" onload="init()">
-    <header class="alt" id="header">
-        <a href="index.html" class="indexBtn">明門藝文中心</a>
-        <nav id="navigation">
-          <ul>
-            <li id="activityIntroduction"><a>活動呈現</a>
-              <ul style="padding: 0 2rem;margin-left: -4rem;">
-                <li><a href="recentPresent.html" class="navBtn">近期呈現</a></li>
-                <li><a href="yearActivity.html" class="navBtn">年度活動回顧</a></li>
-              </ul>
-            </li>
-            <li id="activityReview"><a>使用空間</a>
-              <ul style="padding: 0 2rem;margin-left: -8.5rem;">
-                <li><a href="rentleRules.html" class="navBtn">場地租借使用管理辦法</a></li>
-                <li><a href="spaceIntro.html" class="navBtn">空間介紹</a></li>
-              </ul>
-            </li>
-            <li id="spaceIntroduction"><a>友善連結</a>
-              <ul style="padding: 0 2rem;margin-left: -16rem;">
-                <li><a href="http://junyi.tw/" target="_blank" class="navBtn">均一國際教育實驗高中</a></li>
-                <li><a href="https://www.thealliance.org.tw/" target="_blank" class="navBtn">公益平台基金會</a></li>
-              </ul>
-            </li>
+  <header class="alt" id="header">
+    <a href="index.html" class="indexBtn">明門藝文中心</a>
+    <nav id="navigation">
+      <ul>
+        <li id="activityIntroduction"><a>活動呈現</a>
+          <ul style="padding: 0 2rem;margin-left: -4rem;">
+            <li><a href="recentPresent.html" class="navBtn">近期呈現</a></li>
+            <li><a href="yearActivity.html" class="navBtn">年度活動回顧</a></li>
           </ul>
-        </nav>
-      </header>
-    
-      <a class="navPanelToggle" id="menuBtn">
-        <span class="fa fa-bars"></span>
-      </a>
-    
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1 class="chinese-hero-text">近期呈現</h1>
-          <p class="english-hero-text">wonderland performing arts center</p>
-        </div>
-      </div>
+        </li>
+        <li id="activityReview"><a>使用空間</a>
+          <ul style="padding: 0 2rem;margin-left: -8.5rem;">
+            <li><a href="rentleRules.html" class="navBtn">場地租借使用管理辦法</a></li>
+            <li><a href="spaceIntro.html" class="navBtn">空間介紹</a></li>
+          </ul>
+        </li>
+        <li id="spaceIntroduction"><a>友善連結</a>
+          <ul style="padding: 0 2rem;margin-left: -16rem;">
+            <li><a href="http://junyi.tw/" target="_blank" class="navBtn">均一國際教育實驗高中</a></li>
+            <li><a href="https://www.thealliance.org.tw/" target="_blank" class="navBtn">公益平台基金會</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-      <section class="sectionTypeOne">
-          <div class="inner">
-            <div class="col-lg-5">
-              <a href="impromptuConcert.html">
-            <img src="picture/即興音樂會/000 均一 音樂家4.jpg" alt="圖" style="width: 100%;"/>
+  <a class="navPanelToggle" id="menuBtn">
+    <span class="fa fa-bars"></span>
+  </a>
+
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 class="chinese-hero-text">近期呈現</h1>
+      <p class="english-hero-text">wonderland performing arts center</p>
+    </div>
+  </div>
+
+  <section class="sectionTypeTwo">
+    <div class="inner">
+      <div class="col-lg-5 rwdTopImg">
+        <a href="BDCTaitung.html">
+          <img src="picture/virtualConcert/000.jpg" alt="圖" style="width: 100%;" />
+        </a>
+      </div>
+      <div class="col-lg-7 textTypeTwo">
+        <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
+          <a href="virtualConcert.html">
+            <div class="sectionTitleTypeTwo">以音樂為橋樑<br />虛擬與現實的雙向對談</div>
           </a>
-            </div>
-          <div class="col-lg-7 textTypeOne">
-              <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
-              <div class="sectionTitleTypeOne"><a href="impromptuConcert.html">均一與音樂家的對話<br/>即興音樂會</a></div>
-              <a href="impromptuConcert.html"><div class="titleDateTypeOne">2020.11</div></a>
-            </div>
-            <a href="impromptuConcert.html"><div class="sectionContentTypeOne">11月充滿驚喜的午後，有音樂精靈之稱的小提琴家─廖姵珳，與投身於偏鄉音樂教育的鋼琴家─周美君，同時現身於均一明門藝文中心，與均一學生透過舞蹈、具象音樂創作及合唱，進行以「即興」作為表演連結的音樂會。</div></a>
-          </div>
-          </div>
-      </section>
-
-      <section class="sectionTypeTwo">
-        <div class="inner">
-          <div class="col-lg-5 rwdTopImg">
-            <a href="BDCTaitung.html">
-            <img src="picture/布拉台東場/000 Photo by_高信宗_是否03.jpg" alt="圖" style="width: 100%;"/>
+          <a href="virtualConcert.html">
+            <div class="titleDateTypeTwo">2021.03</div>
           </a>
-            </div>
-        <div class="col-lg-7 textTypeTwo">
-            <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
-              <a href="BDCTaitung.html"><div class="sectionTitleTypeTwo">布拉瑞揚舞團<br/>五周年紀念公演</div></a>
-              <a href="BDCTaitung.html"><div class="titleDateTypeTwo">2020.09</div></a>
-          </div>
-          <a href="BDCTaitung.html"><div class="sectionContentTypeTwo">9月初，布拉瑞揚舞團來到明門藝文中心，演出「LIMA-布拉瑞揚五周年特別計畫」台東場。他們將創團自今五年來，孕育自東岸的能量、勇敢成長的歷程與細細感受的日常，化作舞蹈與歌聲分享給觀眾。</div></a>
         </div>
-        <div class="col-lg-5 rwdBottomImg"><a href="BDCTaitung.html">
-        <img src="picture/布拉台東場/000 Photo by_高信宗_是否03.jpg" alt="圖" style="width: 100%;" /></a>
+        <a href="virtualConcert.html">
+          <div class="sectionContentTypeTwo">
+            在科技音樂與AI的雙向座談活動中，來自成功大學的Scream lab尖叫實驗室、清華大學的AI樂團及中研院研究員蘇黎的研究團隊來到均一，為均一學生們帶來一場音樂與科技結合的視聽饗宴。</div>
+        </a>
       </div>
-        </div>
-    </section>
-    
-
-    <section class="sectionTypeOne">
-      <div class="inner">
-        <div class="col-lg-5">
-          <a href="">
-        <img src="picture/異形奇花音樂劇/1._MG_9768.JPG" alt="圖" style="width: 100%;"/>
-      </a>
-        </div>
-      <div class="col-lg-7 textTypeOne">
-          <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
-          <div class="sectionTitleTypeOne"><a href="">均一異形奇花音樂劇</a></div>
-          <a href=""><div class="titleDateTypeOne">2020.07</div></a>
-        </div>
-        <a href=""><div class="sectionContentTypeOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim, hic tempore nemo non repudiandae, magni nam dolor quibusdam exercitationem fugit laboriosam, laborum ratione asperiores aut inventore deleniti delectus. Delectus asperiores eveniet maiores numquam voluptas iusto quos nam magnam quisquam nihil est ad id repellendus odit consequatur porro esse accusantium, perferendis dolores obcaecati eos blanditiis adipisci, recusandae maxime? Nemo aperiam esse dolor accusantium, libero fugiat cumque fuga consectetur amet, nesciunt nulla quas odio, molestias officia vero dolore suscipit et blanditiis beatae! Sint facere rem natus. Ipsa blanditiis nesciunt excepturi porro accusamus eos corporis numquam incidunt laborum? Temporibus in eos eum?</div></a>
+      <div class="col-lg-5 rwdBottomImg"><a href="virtualConcert.html">
+          <img src="picture/virtualConcert/000.jpg" alt="圖" style="width: 100%;" /></a>
       </div>
-      </div>
+    </div>
   </section>
 
-    <footer>
-        <div class="footer">
-          <div style="text-align: center;">
-          <div class="footInfo" id="footTitle" style="font-size: 22px;font-weight: bold;">均一明門藝文中心</div>
-          <div class="footInfo" id="footAddress" style="font-size: 18px;margin-top: 1em;">950 台東市中興路二段366巷36號</div>
-          <div class="footInfo" id="footEAddress" style="font-size: 16px;margin-bottom: 1em;">No. 36, Ln. 366, Sec. 2, Zhongxing Rd., Taitung City, Taitung Country 950, Taiwan (R.O.C.)</div>
-          <div class="footInfo" id="footContract" style="font-size: 16px;"><span>電話 | 089 - 223301</span><span style="margin-left: 1.5em;">Email | info@junyi.tw</span></div>
-        </div>
-        </div>
-      </footer>
-
-      <div id="navPanel">
-        <ul>
-          <li>
-            <a class="panelTittle">
-              首頁
-            </a>
-            <ul>
-              <li><a href="index.html" class="panelBtn">明門藝文中心</a> </li>
-            </ul>
-          </li>
-          <li>
-            <a class="panelTittle">
-              活動呈現
-            </a>
-            <ul>
-              <li><a href="recentPresent.html" class="panelBtn">近期呈現</a></li>
-              <li><a href="yearActivity.html" class="panelBtn">年度活動回顧</a> </li>
-            </ul>
-          </li>
-    
-          <li>
-            <a class="panelTittle">
-              使用空間
-            </a>
-            <ul>
-              <li><a href="rentleRules.html" class="panelBtn">場地租借使用管理辦法</a> </li>
-              <li><a href="spaceIntro.html" class="panelBtn">空間介紹</a></li>
-            </ul>
-          </li>
-          <li>
-            <a class="panelTittle">
-              友善連結
-            </a>
-            <ul>
-              <li><a href="http://junyi.tw/" target="_blank" class="panelBtn">均一國際教育實驗高中</a></li>
-              <li><a href="https://www.thealliance.org.tw/" target="_blank" class="panelBtn">公益平台基金會</a></li>
-            </ul>
-          </li>
-        </ul>
-        <div id="menuClose" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+  <section class="sectionTypeOne">
+    <div class="inner">
+      <div class="col-lg-5">
+        <a href="impromptuConcert.html">
+          <img src="picture/即興音樂會/000 均一 音樂家4.jpg" alt="圖" style="width: 100%;" />
+        </a>
       </div>
+      <div class="col-lg-7 textTypeOne">
+        <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
+          <div class="sectionTitleTypeOne"><a href="impromptuConcert.html">均一與音樂家的對話<br />即興音樂會</a></div>
+          <a href="impromptuConcert.html">
+            <div class="titleDateTypeOne">2020.11</div>
+          </a>
+        </div>
+        <a href="impromptuConcert.html">
+          <div class="sectionContentTypeOne">
+            11月充滿驚喜的午後，有音樂精靈之稱的小提琴家─廖姵珳，與投身於偏鄉音樂教育的鋼琴家─周美君，同時現身於均一明門藝文中心，與均一學生透過舞蹈、具象音樂創作及合唱，進行以「即興」作為表演連結的音樂會。</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sectionTypeTwo">
+    <div class="inner">
+      <div class="col-lg-5 rwdTopImg">
+        <a href="BDCTaitung.html">
+          <img src="picture/布拉台東場/000 Photo by_高信宗_是否03.jpg" alt="圖" style="width: 100%;" />
+        </a>
+      </div>
+      <div class="col-lg-7 textTypeTwo">
+        <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
+          <a href="BDCTaitung.html">
+            <div class="sectionTitleTypeTwo">布拉瑞揚舞團<br />五周年紀念公演</div>
+          </a>
+          <a href="BDCTaitung.html">
+            <div class="titleDateTypeTwo">2020.09</div>
+          </a>
+        </div>
+        <a href="BDCTaitung.html">
+          <div class="sectionContentTypeTwo">
+            9月初，布拉瑞揚舞團來到明門藝文中心，演出「LIMA-布拉瑞揚五周年特別計畫」台東場。他們將創團自今五年來，孕育自東岸的能量、勇敢成長的歷程與細細感受的日常，化作舞蹈與歌聲分享給觀眾。</div>
+        </a>
+      </div>
+      <div class="col-lg-5 rwdBottomImg"><a href="BDCTaitung.html">
+          <img src="picture/布拉台東場/000 Photo by_高信宗_是否03.jpg" alt="圖" style="width: 100%;" /></a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sectionTypeOne">
+    <div class="inner">
+      <div class="col-lg-5">
+        <a href="">
+          <img src="picture/異形奇花音樂劇/1._MG_9768.JPG" alt="圖" style="width: 100%;" />
+        </a>
+      </div>
+      <div class="col-lg-7 textTypeOne">
+        <div style="display: inline-flex; justify-content: space-between;width: 100%;align-items: flex-end;">
+          <div class="sectionTitleTypeOne"><a href="">均一異形奇花音樂劇</a></div>
+          <a href="">
+            <div class="titleDateTypeOne">2020.07</div>
+          </a>
+        </div>
+        <a href="">
+          <div class="sectionContentTypeOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam enim, hic
+            tempore nemo non repudiandae, magni nam dolor quibusdam exercitationem fugit laboriosam, laborum ratione
+            asperiores aut inventore deleniti delectus. Delectus asperiores eveniet maiores numquam voluptas iusto quos
+            nam magnam quisquam nihil est ad id repellendus odit consequatur porro esse accusantium, perferendis dolores
+            obcaecati eos blanditiis adipisci, recusandae maxime? Nemo aperiam esse dolor accusantium, libero fugiat
+            cumque fuga consectetur amet, nesciunt nulla quas odio, molestias officia vero dolore suscipit et blanditiis
+            beatae! Sint facere rem natus. Ipsa blanditiis nesciunt excepturi porro accusamus eos corporis numquam
+            incidunt laborum? Temporibus in eos eum?</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div style="text-align: center;">
+        <div class="footInfo" id="footTitle" style="font-size: 22px;font-weight: bold;">均一明門藝文中心</div>
+        <div class="footInfo" id="footAddress" style="font-size: 18px;margin-top: 1em;">950 台東市中興路二段366巷36號</div>
+        <div class="footInfo" id="footEAddress" style="font-size: 16px;margin-bottom: 1em;">No. 36, Ln. 366, Sec. 2,
+          Zhongxing Rd., Taitung City, Taitung Country 950, Taiwan (R.O.C.)</div>
+        <div class="footInfo" id="footContract" style="font-size: 16px;"><span>電話 | 089 - 223301</span><span
+            style="margin-left: 1.5em;">Email | info@junyi.tw</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="navPanel">
+    <ul>
+      <li>
+        <a class="panelTittle">
+          首頁
+        </a>
+        <ul>
+          <li><a href="index.html" class="panelBtn">明門藝文中心</a> </li>
+        </ul>
+      </li>
+      <li>
+        <a class="panelTittle">
+          活動呈現
+        </a>
+        <ul>
+          <li><a href="recentPresent.html" class="panelBtn">近期呈現</a></li>
+          <li><a href="yearActivity.html" class="panelBtn">年度活動回顧</a> </li>
+        </ul>
+      </li>
+
+      <li>
+        <a class="panelTittle">
+          使用空間
+        </a>
+        <ul>
+          <li><a href="rentleRules.html" class="panelBtn">場地租借使用管理辦法</a> </li>
+          <li><a href="spaceIntro.html" class="panelBtn">空間介紹</a></li>
+        </ul>
+      </li>
+      <li>
+        <a class="panelTittle">
+          友善連結
+        </a>
+        <ul>
+          <li><a href="http://junyi.tw/" target="_blank" class="panelBtn">均一國際教育實驗高中</a></li>
+          <li><a href="https://www.thealliance.org.tw/" target="_blank" class="panelBtn">公益平台基金會</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div id="menuClose" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+  </div>
 
 
 </body>
+
 </html>
